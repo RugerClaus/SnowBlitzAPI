@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'SnowBlitzDatabase';
 $username = 'root';
-$password = 'Pokemon102*';  // Use actual password for production
+$password = 'none';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
